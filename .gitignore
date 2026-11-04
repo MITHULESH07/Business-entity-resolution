@@ -1,0 +1,49 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# tests
+backend/app/test_features.py
+
+#dataset
+backend/data/training_data.csv
